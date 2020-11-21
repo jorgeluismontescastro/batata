@@ -254,7 +254,7 @@ main {
     padding-top: 30px;
 }
 
-.main--container-product h4{
+.product-cards--title{
     width: 90%;
     display: block;
     margin: 0 auto;
@@ -295,4 +295,29 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.product-cards--container {
+    width: 100%;
+    min-width: 320px;
+    height: 700px;
+    background: var(--black);
+    border-radius: 20px;    
+}
+
+.product-container--icon {
+    width: 100%;
+    height: auto;
+    background-image: url('../assets/icons/batata.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container--info-cards{
+    width: 70%;
+    min-width: 320px;
+    height: auto;
+    background: var(--warm-black);
+    border-radius: 20px;
 }
